@@ -76,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
         MqttConnectOptions options = new MqttConnectOptions();
         options.setMqttVersion(MqttConnectOptions.MQTT_VERSION_3_1);
 
-        options.setUserName("wvewfgbg");
-        options.setPassword("0BwuLSnOSda4".toCharArray());
+        options.setUserName("username");
+        options.setPassword("password".toCharArray());
         try {
             IMqttToken token = mqttAndroidClient.connect(options);    //mqtttoken 이라는것을 만들어 connect option을 달아줌
 
