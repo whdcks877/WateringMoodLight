@@ -73,14 +73,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="ColorWipe" />
+                            android:text="PlainColor" />
 
                         <RadioButton
                             android:id="@+id/TC"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="TheaterChase" />
+                            android:text="Dimming" />
 
                         <RadioButton
                             android:id="@+id/RB"
